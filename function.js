@@ -11,7 +11,7 @@ if (password === new_password) {
 }
 
 // function declaration
-const addNumbers = {firstNumber, secondNumber} => {
+const addNumbers = (firstNumber, secondNumber) => {
     let totalNumber = firstNumber + secondNumber;
     console.log(totalNumber)
 
@@ -27,3 +27,15 @@ function greetings(name) {
 greetings();
 
 //function example
+const checkWeather = (weather) => {
+    if (weather === 'cloudy') {
+        console.log("Please bring an umbrella");
+    } else if (weather === "raining") {
+        console.log('Please bring a raincoat');
+    } else if (weather === "stormy") {
+        console.log("Please bring sunglasses");
+    } else {
+        console.log("Do whatever you want!")
+    }
+}
+
