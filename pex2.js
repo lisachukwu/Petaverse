@@ -11,6 +11,13 @@ const greetings = (name) => {
 greetings('Lisa');
 
 
+//Using template literal
+const greeting =(names) => {
+    console.log(`Good afternoon, ${names}!`);
+}
+
+greeting('Angel')
+
 
 //write a function to take age and return the year you were born, use pseudo code.
 
@@ -26,3 +33,11 @@ function birth_year(age){
 
 // Step 4: Call the function with the required argument inside.
 birth_year(12)
+
+//Using template literals
+function birth_year2 (namess,age) {
+    birthyear = 2024 - age;
+    console.log(`${namess} was born on ${birthyear}`);
+}
+
+birth_year2('Lisa',12)
