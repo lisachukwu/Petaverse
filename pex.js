@@ -1,5 +1,5 @@
 //this is an assignment 
-/*
+
 function tod(time) {
     console.log('This function is to note the time of day')
     if (time === 'morning') {
@@ -57,22 +57,3 @@ const addnum = (firstNumber,secondNumber) => {
 
 addnum(1,2)
 
-*/
-
-// Assignment
-//write a fun to output "Good afternoon, Lisa"
-//use pseudo code
-//write a function to take age and return the year you were born, use pseudo code 
-const greetings = (name) => {
-    //message = ;
-    console.log('Good Afternoon '.concat(name));
-}
-greetings('Lisa')
-
-function birth_year(age){
-
-    yearOfBirth = 2024 - age
-    console.log('Your birth year is '.concat(yearOfBirth))
-}
-
-birth_year(12)
