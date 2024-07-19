@@ -38,6 +38,7 @@ a{
 }
 p{
     font-size: medium;
+    font: optional;
 }
 #redbox{
     height: 60px;
