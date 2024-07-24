@@ -20,4 +20,16 @@ console.log(students);
 
 // .pop removes items from the end of the array
 students.pop();
+console.log(students);
 
+// saving the popped value in a variable
+let popped = students.pop();
+console.log(popped);
+
+// .shift removes the first element in an array
+students.shift();
+console.log(students);
+
+// .unshift adds an item at the beginning of the array
+students.unshift("Timothy")
+console.log(students)
